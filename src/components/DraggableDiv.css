@@ -1,0 +1,19 @@
+.draggable-div {
+    position: absolute;
+    min-width: 150px;
+    width: auto;
+    min-height: 50px;
+    height: auto;
+    max-width: 45vw;
+    background-color: lightblue;
+    cursor: grab;
+    user-select: none;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.no-underline::before {
+  border-bottom: none !important;
+}
